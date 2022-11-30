@@ -1,0 +1,13 @@
+VIN numero identificativo del veicolo (17 tra numeri e lettere) => VARCHAR(20)
+Marca =>VARCHAR(20)
+modello =>VARCHAR(20)
+serie =>VARCHAR(20)
+Allestimento =>VARCHAR(20)
+n. di porte =>TINYINT (2)
+Anno immatricolazione =>YEAR
+km => DOUBLE (9,2)
+tipo alimentazione =>VARCHAR(20)
+tipo motore =>VARCHAR(20)
+cilindrata=>VARCHAR(20)
+data ultima revisione=> DATE
+
