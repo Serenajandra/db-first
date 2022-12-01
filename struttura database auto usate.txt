@@ -1,5 +1,5 @@
 VIN numero identificativo del veicolo (17 tra numeri e lettere) => VARCHAR(20) UNIQUE
-Marca =>VARCHAR(20) - NOT NULL
+Marca =>VARCHAR(20) - NOT NULL - INDEX
 modello =>VARCHAR(20)- NOT NULL
 serie =>VARCHAR(20)- NOT NULL
 Allestimento =>VARCHAR(20)
@@ -8,6 +8,12 @@ Anno immatricolazione =>YEAR- NOT NULL
 km => DOUBLE (9,2)
 tipo alimentazione =>VARCHAR(20)- NOT NULL
 tipo motore =>VARCHAR(20)
-cilindrata=>VARCHAR(20)- NOT NULL
+cilindrata => SMALLINT- NOT NULL
+prezzo => DECIMAL(10,2) - NOT NULL
 data ultima revisione=> DATE
+km percorsi => MEDIUMINT - NOT NULL
+immagine => VARCHAR(250)
+descrizione => TEXT
+colore => VARCHAR(50)
+
 
